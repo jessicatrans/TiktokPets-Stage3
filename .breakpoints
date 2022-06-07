@@ -1,0 +1,28 @@
+{
+  "files": {
+    "public/compare.css": [
+      {
+        "id": "03c70cae-106c-4eae-b934-b4c1bed5b89c",
+        "line": 32,
+        "version": 499,
+        "index": 488
+      }
+    ],
+    "public/compare.js": [
+      {
+        "id": "69936f5c-3efb-4597-a844-35989d9204d1",
+        "line": 20,
+        "version": 5114,
+        "index": 556
+      }
+    ],
+    "public/videos.js": [
+      {
+        "id": "23cb3a5a-72b0-4440-bd56-c967b4c495ed",
+        "line": 3,
+        "version": 713,
+        "index": 44
+      }
+    ]
+  }
+}

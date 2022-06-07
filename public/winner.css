@@ -1,0 +1,45 @@
+.winnerHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+#nickname {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+
+@media screen and (max-width:600px) {
+  #nickname {
+    font-size: 18px;
+  }
+  
+  div.headerRight {
+      width: 30%;
+      justify-content: center;
+    }
+}
+

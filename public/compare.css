@@ -1,0 +1,93 @@
+
+.gameHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.videoContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 35%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoControls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reload,.heart {
+  margin: 20px;
+}
+
+.unloved {
+  color: rgb(180,180,180);
+}
+
+/* change unloved to loved color */
+.loved {
+  color: rgba(238, 29, 82, 0.9);
+}
+
+.nickname {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+@media screen and (max-width:750px) {
+  .nickname {
+  font-size: 18px;
+  }
+
+  main {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  div.headerRight {
+      width: 30%;
+      justify-content: center;
+    }
+
+  footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  
+}
+
